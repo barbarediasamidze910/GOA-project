@@ -90,7 +90,45 @@ end_fill()
 
 
 
+color("white")
+goto(-500,-10)
+color("green")
+begin_fill()
+right(65)
+forward(1000)
+right(90)
+forward(500)
+right(90)
+forward(1000)
+end_fill()
 
 
+goto(500,-10)
+color("white")
+goto(-400,300)
+color("yellow")
+begin_fill()
+circle(50)
+end_fill()
+
+
+color("white")
+goto(-300,0)
+color("brown")
+begin_fill()
+right(90)
+forward(150)
+right(90)
+forward(50)
+right(90)
+forward(150)
+end_fill()
+
+
+begin_fill()
+goto(-330,150)
+color("green")
+circle(55)
+end_fill()
 
 exitonclick()
