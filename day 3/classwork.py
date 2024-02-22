@@ -28,3 +28,21 @@ item="bike"
 #item არის ცვლადის სახელი
 #bike არის ცვლადის მნიშვნელობა ხოლო = არის მინიჭებული ოპერატორი
 
+#variable name = ცვლადის სახელი
+#variable value = ცვლადის ნიშვნელობა
+#variable = ცვლადი 
+
+
+name = "barbare"
+surname = "diasamize"
+
+print(name)
+print(surname)
+
+print( name + " " + surname )
+
+age = 10
+height = 135
+
+print( name + " " + str(surname))
+print( age + " " + str(age))
