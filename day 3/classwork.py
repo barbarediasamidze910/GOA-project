@@ -41,8 +41,12 @@ print(surname)
 
 print( name + " " + surname )
 
+print( name + " " + surname )
+print( surname + " " + name )
+
 age = 10
 height = 135
 
-print( name + " " + str(surname))
-print( age + " " + str(age))
+print ( age )
+print ( height )
+
