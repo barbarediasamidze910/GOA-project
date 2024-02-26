@@ -50,3 +50,4 @@ height = 135
 print ( age )
 print ( height )
 
+print(str (name) + str (surname) + str (age) + str ( height))
