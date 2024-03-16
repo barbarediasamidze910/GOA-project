@@ -1,1 +1,1 @@
-print[car]
+print(" hello my name is barbare, i am 10 years old, i live in dighomi and i was born in tbilisi")
