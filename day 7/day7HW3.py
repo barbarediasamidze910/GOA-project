@@ -13,6 +13,6 @@ z = 3
 #print(pow(pi,2))
 #print(math.sqrt(420))
 #print(max(x,y,z))
-print(min(x,y,z))
+#print(min(x,y,z))
 
 

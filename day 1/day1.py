@@ -53,5 +53,9 @@ print(height)
 
 print(name + " " + surname)
 print(name + " " + str(age))
-print(surname + " " +str(height))
+print(surname + " " + str(height))
 
+
+
+
+ 
