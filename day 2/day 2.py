@@ -4,7 +4,7 @@ from turtle import *
 # i want to make a house
 
 #step 1:  draw a square
-
+speed(10000000)
 
 width (10)
 
