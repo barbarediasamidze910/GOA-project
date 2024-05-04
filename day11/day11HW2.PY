@@ -15,3 +15,5 @@ b = 9<10
 
 print(a and b)
 print(a or b)
+
+
