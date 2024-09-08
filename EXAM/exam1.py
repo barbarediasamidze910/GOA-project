@@ -25,5 +25,5 @@ bank_balance2 = a
 after_withdrawal = bank_balance2 - d
 bank_list2 = [ bank_balance, after_withdrawal, c]
 
-print(bank_balance,bank_list2)
+print(bank_list2)
 
