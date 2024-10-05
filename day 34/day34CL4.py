@@ -9,4 +9,5 @@ list.remove(30)
 list.reverse()
 
 list.count(20)
+
 print(list)

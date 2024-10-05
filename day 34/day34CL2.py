@@ -7,3 +7,5 @@ nums.remove(9)
 nums.insert(0,nums.count(8))
 
 print(nums[3])
+
+#the code will output 4
