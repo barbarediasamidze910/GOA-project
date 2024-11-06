@@ -4,5 +4,5 @@ def sum(x):
         res += i
         return res
     
-sum()
+
         
