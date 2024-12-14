@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fading Background Color</title>
+  <style>
+    /* Define the animation */
+    @keyframes fadeBackground {
+      0% {
+        background-color: #ff9999; /* Light red */
+      }
+      50% {
+        background-color: #99ccff; /* Light blue */
+      }
+      100% {
+        background-color: #ff9999; /* Light red */
+      }
+    }
+
+    /* Apply the animation to the body */
+    body {
+      animation: fadeBackground 5s infinite; /* Duration 5 seconds, loop infinitely */
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h1>Fading Background Color</h1>
+</body>
+</html>
