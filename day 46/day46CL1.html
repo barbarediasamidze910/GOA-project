@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            background-color:darkslategray;
+        }
+        main{
+            text-align:center;
+            margin-left:600px;
+            margin-top:200px;
+        }
+        h1{
+            font-family:cursive;
+            width:200px;
+            height:200px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:10px;
+            font-size:50px;
+            margin-top:40px;
+            transition:1s;
+            animation-duration:3;
+            animation-iteration-count:5;
+        }
+        .h11{
+            background-color:aquamarine;
+        }
+        .h12{
+            background-color:rgb(133, 204, 62);
+        }
+        .h13{
+            background-color:rgb(236, 160, 98);
+        }
+        h1:hover{
+            transition:rotate(90deg);
+        }
+        @keyframes h1{
+            from{
+                border-radius:0px;
+            }
+            to{
+                border-radius:300px;
+            }
+        }
+    </style>
+<body>
+   <main>
+    <h1 class="h11">GOA 1</h1>
+    <h1 class="h12">GOA 2</h1>
+    <h1 class="h13">GOA 3</h1>
+   </main>
+    
+</body>
+</html>
